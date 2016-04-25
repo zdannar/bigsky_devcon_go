@@ -1,0 +1,71 @@
+Goals:
+    "The efficientcy of a statically-typed compiled language with the ease of programming of a dynamic language"
+    Rob Pike
+
+History:
+
+    Bell Labs:
+        - Rob Pike
+        - Ken Thomson
+        - Robert Griesemer
+
+    Project started late 2007
+    By mid 2008 the language was designed.  compiler, runt-time
+
+    Ian Lance Taylor and Russ Cox joined in 2008
+
+(From Pike)
+-> Fast programming,
+-> Too long to compile
+-> Fun.
+-> Concurency.
+
+* UTF8 By default.
+
+http://blog.golang.org/a-conversation-with-the-go-team
+Go team Members:
+ -  Robert Griesemer
+ -  Rob Pike
+ -  David Symonds
+ -  Andrew Gerrand
+ -  Ian Lance Taylor
+ -  Sameer Ajmani
+ -  Brad Fitzpatrick
+ -  Nigel Tao
+ -  ...
+
+
+Projects:
+  Web:
+    - gorrilla
+    - martini
+    - beego
+
+Concurency:
+"Is a way to build things. It is the composition of independantly executing processesthings, typically functions"
+Tony Whore : 1978 Communicating Sequencial Processes.
+
+    goroutines:
+    channels:
+    mutexes:
+
+Interfaces vs OO:
+    Duck Typing:
+        'Walks like a duck!'
+
+* Pointers.
+
+Vendoring:
+  Dave C's project.
+
+Testing:
+  - Make mention of Mitchell's Hashimoto's presention.
+
+Interface:
+    "A formalization of a set of methods" Rob Pike.
+
+
+Concurrency is not parallelism
+https://www.youtube.com/watch?v=cN_DpYBzKso
+
+
