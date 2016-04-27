@@ -1,5 +1,8 @@
-Bigsky DevCon Presentation.
+Big Sky DevCon Presentation.
 
-Uses go present
+This presentation used go present.  Instructions for installing and running this presentation 
+can be found at:
 
-MORE TO COME!
+	https://github.com/golang/talks
+
+After getting present install, simply run the present binary from this directory.
