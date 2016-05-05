@@ -1,19 +1,56 @@
-Title for my presentation
-This is a subtitle
+#------------------
+# SLIDE
+#------------------
+Go for DevOps, ...
+Riding a big toothed bear into battle
 2 Jan 2016
 
 Zack Dannar
-(DevOps, SysAdmin, SRE ...)
+Swiss Army Knife
 zackdannar@yahoo.com
 
-* Who ami I?
+#------------------
+# SLIDE
+#------------------
+* Bear?  
+What is with the bear?
 
-asdfasdfasdf
-oasdflasdf
-asdf
-asd
-f
-asdf
+#------------------
+# SLIDE
+#------------------
+* intimidating?
+.image putin.jpg
+
+#------------------
+# SLIDE
+#------------------
+* Volley Ball Anyone?
+.image volley_ball.gif
+
+#------------------
+# SLIDE
+#------------------
+* Is this better?
+.image gophlastic2.png
+
+#------------------
+# SLIDE
+#------------------
+* ~/$ whoami
+
+*Zack* *Dannar*
+Sr. DevOps at Pulsara
+
+*Oracle:*
+- Software Development Manager
+- Sr. SysAdmin
+
+*RigtNow:*
+- SysAdmin 
+
+*Zoot:*
+- SysAdmin
+- Criteria Programmer
 
 * Go History
 
@@ -21,3 +58,10 @@ _asdf_
 *asd*
 f
 asdf
+
+* Team Members
+
+* Rob Pike
+** The Commander
+
+
