@@ -12,7 +12,26 @@ zackdannar@yahoo.com
 #------------------
 # SLIDE
 #------------------
-* Bear?  
+* ~/$ whoami
+
+*Zack* *Dannar*
+Sr. DevOps at Pulsara
+
+*Oracle:*
+- Software Development Manager
+- Sr. SysAdmin
+
+*RigtNow:*
+- SysAdmin
+
+*Zoot:*
+- SysAdmin
+- Criteria Programmer
+
+#------------------
+# SLIDE
+#------------------
+* Bear?
 What is with the bear?
 
 #------------------
@@ -36,21 +55,37 @@ What is with the bear?
 #------------------
 # SLIDE
 #------------------
-* ~/$ whoami
 
-*Zack* *Dannar*
-Sr. DevOps at Pulsara
+* Why Go?
+What was wrong with the other languages?
+.image head_scratch.jpg
 
-*Oracle:*
-- Software Development Manager
-- Sr. SysAdmin
+#------------------
+# SLIDE
+#------------------
+* ...
 
-*RigtNow:*
-- SysAdmin 
+Language Nuances
+Performance
+Deployabilty
 
-*Zoot:*
-- SysAdmin
-- Criteria Programmer
+#------------------
+# SLIDE
+#------------------
+* ... Python
+
+.play wtf.py
+
+#------------------
+# SLIDE
+#------------------
+* ... Ruby
+
+.play wtf.rb
+
+#------------------
+# SLIDE
+#------------------
 
 * Go History
 
