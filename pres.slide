@@ -63,25 +63,41 @@ What was wrong with the other languages?
 #------------------
 # SLIDE
 #------------------
-* ...
+* Why Go? ...
 
-Language Nuances
-Performance
-Deployabilty
+- Avoid Language Nuances
+- Static Types
+- Deployabilty
+- Performance
 
 #------------------
 # SLIDE
 #------------------
-* ... Python
+* ...
 
 .play wtf.py
 
 #------------------
 # SLIDE
 #------------------
-* ... Ruby
+* ...
+
+.image what_is_that.gif
+
+#------------------
+# SLIDE
+#------------------
+* ...
 
 .play wtf.rb
+
+#------------------
+# SLIDE
+#------------------
+* Languages Nuances
+- Truth
+- Driver function
+- Exceptions
 
 #------------------
 # SLIDE
@@ -89,14 +105,41 @@ Deployabilty
 
 * Go History
 
-_asdf_
-*asd*
-f
-asdf
-
 * Team Members
+- *Rob* *Pike*
+- *Robert* *Griesemer*
+- David Symonds
+- Andrew Gerrand
+- Ian Lance Taylor
+- Sameer Ajmani
+- Brad Fitzpatrick
+- Nigel Tao
+- *Ken* *Thompson*
+- ...
+
+* Robert Griesemer
+.image robert_griesemer.jpg
+
+* Robert Griesemer Accomplishments
+- Google's V8 JavaScript engine
+- Chubby
+- GFS
+- Sawzall
+- Java HotSpot virtual machine
+- Strongtalk 
+- vectorizing compiler for the Cray Y-MP and an interpreter for APL.
+
+* Brad Fitzpatric 
+.image bradfitz.jpg
+
+* Brad Fitzpatrick Accomplishments
+- memcached
+- LiveJournal
+- PubSubHubbub 
+- OpenID
+- Camlistore
 
 * Rob Pike
-** The Commander
-
+.image rob_pike.jpg
+.caption The commander
 
