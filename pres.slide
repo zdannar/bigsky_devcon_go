@@ -31,13 +31,14 @@ Sr. DevOps at Pulsara
 #------------------
 # SLIDE
 #------------------
+
 * Bear?
-What is with the bear?
+What is this nonsense about a bear?
 
 #------------------
 # SLIDE
 #------------------
-* intimidating?
+* Intimidating?
 .image putin.jpg
 
 #------------------
@@ -56,19 +57,29 @@ What is with the bear?
 # SLIDE
 #------------------
 
-* Why Go?
-What was wrong with the other languages?
+* What was wrong with the other languages?
 .image head_scratch.jpg
 
 #------------------
 # SLIDE
 #------------------
-* Why Go? ...
 
-- Avoid Language Nuances
-- Static Types
-- Deployabilty
-- Performance
+* Interpretted
+- Python
+- Ruby
+- Perl
+- ...
+
+#------------------
+# SLIDE
+#------------------
+
+* Compiled/Performant 
+- C
+- C++
+- Java 
+- Erlang
+- ...
 
 #------------------
 # SLIDE
@@ -94,15 +105,30 @@ What was wrong with the other languages?
 #------------------
 # SLIDE
 #------------------
-* Languages Nuances
-- Truth
-- Driver function
-- Exceptions
+* What I was looking for.
+
+- Avoid Language Nuances
+- Deployabilty
+- Performance
+- Static Types
+- Speed of development
 
 #------------------
 # SLIDE
 #------------------
+* Digging around the interwebs.
+.image zelda_chest.png
 
+#------------------
+# SLIDE
+#------------------
+* Go!
+.image gopher_head.png
+.caption https://golang.org/
+
+#------------------
+# SLIDE
+#------------------
 * Go History
 
 * Team Members
@@ -117,9 +143,15 @@ What was wrong with the other languages?
 - *Ken* *Thompson*
 - ...
 
+#------------------
+# SLIDE
+#------------------
 * Robert Griesemer
 .image robert_griesemer.jpg
 
+#------------------
+# SLIDE
+#------------------
 * Robert Griesemer Accomplishments
 - Google's V8 JavaScript engine
 - Chubby
@@ -129,9 +161,15 @@ What was wrong with the other languages?
 - Strongtalk 
 - vectorizing compiler for the Cray Y-MP and an interpreter for APL.
 
+#------------------
+# SLIDE
+#------------------
 * Brad Fitzpatric 
 .image bradfitz.jpg
 
+#------------------
+# SLIDE
+#------------------
 * Brad Fitzpatrick Accomplishments
 - memcached
 - LiveJournal
@@ -139,7 +177,22 @@ What was wrong with the other languages?
 - OpenID
 - Camlistore
 
+#------------------
+# SLIDE
+#------------------
 * Rob Pike
 .image rob_pike.jpg
 .caption The commander
+
+#------------------
+# SLIDE
+#------------------
+* Rob Pike Accomplishments
+- Plan 9/Inferno operating systems
+- Limbo programming language
+- First windows system in Unix 
+- Text editors sam, acme and others
+- Co creator of UTF-8 with Ken Thompson
+- Sawzall, Newsqueak and others.
+
 
