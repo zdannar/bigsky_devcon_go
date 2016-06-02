@@ -84,27 +84,6 @@ What is this nonsense about a bear?
 #------------------
 # SLIDE
 #------------------
-* ...
-
-.play wtf.py
-
-#------------------
-# SLIDE
-#------------------
-* ...
-
-.image what_is_that.gif
-
-#------------------
-# SLIDE
-#------------------
-* ...
-
-.play wtf.rb
-
-#------------------
-# SLIDE
-#------------------
 * What I was looking for.
 
 - Avoid Language Nuances
@@ -116,8 +95,76 @@ What is this nonsense about a bear?
 #------------------
 # SLIDE
 #------------------
+* Avoid Language Nuances
+- No actual main program driver function
+- Lack of truth
+- Not everything is an object.  Seems contrived.
+ 
+#------------------
+# SLIDE
+#------------------
+* ...
+.play wtf.py
+
+#------------------
+# SLIDE
+#------------------
+* ...
+.image what_is_that.gif
+
+#------------------
+# SLIDE
+#------------------
+* ...
+.play wtf.rb
+
+#------------------
+# SLIDE
+#------------------
+* Deployabilty
+
+Deploying libs and managing deps sucks.
+
+Therefore ...
+
+Statically compiled
+
+#------------------
+# SLIDE
+#------------------
+* Performance
+- Not C, but fairly close.
+- Actual threading, able to use mutiple cores.
+
+#------------------
+# SLIDE
+#------------------
+* Static Types
+
+- Code readabilty
+- No more guessing games
+- ...
+
+#------------------
+# SLIDE
+#------------------
+* Speed of development
+
+- Didn't have the time to code C or C++.  
+- Need to be to solve an issue in roughly the same time as python.
+- Peers have to be able to read the code.
+
+#------------------
+# SLIDE
+#------------------
+* What now?
+.image PulpFictionMedieval.jpg
+
+#------------------
+# SLIDE
+#------------------
 * Digging around the interwebs.
-.image zelda_chest.png
+.image zelda_chest.gif
 
 #------------------
 # SLIDE
@@ -194,5 +241,4 @@ What is this nonsense about a bear?
 - Text editors sam, acme and others
 - Co creator of UTF-8 with Ken Thompson
 - Sawzall, Newsqueak and others.
-
 
