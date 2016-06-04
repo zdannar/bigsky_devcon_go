@@ -136,6 +136,9 @@ Statically compiled
 - Not C, but fairly close.
 - Actual threading, able to use mutiple cores.
 
+* Python multiprocess 
+.image hartman_children.jpg
+
 #------------------
 # SLIDE
 #------------------
@@ -242,3 +245,20 @@ Statically compiled
 - Co creator of UTF-8 with Ken Thompson
 - Sawzall, Newsqueak and others.
 
+#------------------
+# SLIDE
+#------------------
+* Hello world!
+.play helloworld.go HLmain
+
+#------------------
+# SLIDE
+#------------------
+* Structs vs Classes 
+.code helloworld.go /STRUCT OMIT/,/STRUCTE OMIT/
+
+#------------------
+# SLIDE
+#------------------
+* The truth will set you Free!
+.play truth.go
