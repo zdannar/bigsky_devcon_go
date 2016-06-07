@@ -87,10 +87,10 @@ What is this nonsense about a bear?
 * What I was looking for.
 
 - Avoid Language Nuances
-- Deployabilty
-- Performance
 - Static Types
+- Deployabilty
 - Speed of development
+- Performance
 
 #------------------
 # SLIDE
@@ -147,6 +147,8 @@ Statically compiled
 - Code readabilty
 - No more guessing games
 - ...
+
+# TODO: Show examples of static types.  Maybe C, Java and Rust.
 
 #------------------
 # SLIDE
@@ -262,3 +264,44 @@ Statically compiled
 #------------------
 * The truth will set you Free!
 .play truth.go
+ 
+#------------------
+# SLIDE
+#------------------
+* Real World Example
+- multiple repos 
+ 
+#------------------
+# SLIDE
+#------------------
+* Parsing RPM XML Repo
+.background ryan_graph_without_pypy.png
+
+#------------------
+# SLIDE
+#------------------
+* Parsing RPM XML Repo(cont..)
+.background ryan_graph.png
+
+#------------------
+# SLIDE
+#------------------
+* Tooling?
+
+- gofmt
+- go race
+- go vet
+- go get
+
+
+#------------------
+# SLIDE
+#------------------
+* Things I am not partial about go.
+- No tooling to describe interface implementation.
+- Errors can be minotinous
+- Lack of Generics.
+- Over implemetation of channels.  They can be slow.
+
+# TODO: Cross Compile.
+# set GOOS and GOARCH.
