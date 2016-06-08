@@ -64,7 +64,7 @@ What is this nonsense about a bear?
 # SLIDE
 #------------------
 
-* Interpretted
+* Common DevOps* languages (Interpreted)
 - Python
 - Ruby
 - Perl
@@ -74,10 +74,10 @@ What is this nonsense about a bear?
 # SLIDE
 #------------------
 
-* Compiled/Performant 
+* Compiled/Performant
 - C
 - C++
-- Java 
+- Java
 - Erlang
 - ...
 
@@ -88,7 +88,7 @@ What is this nonsense about a bear?
 
 - Avoid Language Nuances
 - Static Types
-- Deployabilty
+- Deployability
 - Speed of development
 - Performance
 
@@ -98,8 +98,8 @@ What is this nonsense about a bear?
 * Avoid Language Nuances
 - No actual main program driver function
 - Lack of truth
-- Not everything is an object.  Seems contrived.
- 
+- Too much syntactic sugar
+
 #------------------
 # SLIDE
 #------------------
@@ -111,6 +111,7 @@ What is this nonsense about a bear?
 #------------------
 * ...
 .image what_is_that.gif
+.code wtf.py /WTF OMIT/,/WTFE OMIT/
 
 #------------------
 # SLIDE
@@ -121,10 +122,28 @@ What is this nonsense about a bear?
 #------------------
 # SLIDE
 #------------------
-* Deployabilty
+* Deployabilty, Avoiding...
+.image dep_hell.jpg
 
-Deploying libs and managing deps sucks.
+#------------------
+# SLIDE
+#------------------
+* Deploying libs and managing deps sucks.
 
+- Conflicts with current libs
+- Lib packaging
+- Deployment time
+
+Other considerations:
+
+- compliance?
+- Lib availability
+\...
+
+#------------------
+# SLIDE
+#------------------
+* Deploying libs and managing deps sucks.
 Therefore ...
 
 Statically compiled
@@ -134,28 +153,32 @@ Statically compiled
 #------------------
 * Performance
 - Not C, but fairly close.
-- Actual threading, able to use mutiple cores.
+- Actual threading, able to use multiple cores.
 
-* Python multiprocess 
+#------------------
+# SLIDE
+#------------------
+* Python multiprocess
 .image hartman_children.jpg
 
-#------------------
-# SLIDE
-#------------------
 * Static Types
 
-- Code readabilty
+- Code readability
 - No more guessing games
-- ...
+\...
 
-# TODO: Show examples of static types.  Maybe C, Java and Rust.
+* Static Types ...
+.code hello.c /R2 OMIT/,/R2E OMIT/
+
+* Static Types ...
+.code hello.c /R1 OMIT/,/R1E OMIT/
 
 #------------------
 # SLIDE
 #------------------
-* Speed of development
+* Speed of Development
 
-- Didn't have the time to code C or C++.  
+- Didn't have the time to code C or C++.
 - Need to be to solve an issue in roughly the same time as python.
 - Peers have to be able to read the code.
 
@@ -210,13 +233,13 @@ Statically compiled
 - GFS
 - Sawzall
 - Java HotSpot virtual machine
-- Strongtalk 
+- Strongtalk
 - vectorizing compiler for the Cray Y-MP and an interpreter for APL.
 
 #------------------
 # SLIDE
 #------------------
-* Brad Fitzpatric 
+* Brad Fitzpatric
 .image bradfitz.jpg
 
 #------------------
@@ -225,7 +248,7 @@ Statically compiled
 * Brad Fitzpatrick Accomplishments
 - memcached
 - LiveJournal
-- PubSubHubbub 
+- PubSubHubbub
 - OpenID
 - Camlistore
 
@@ -242,7 +265,7 @@ Statically compiled
 * Rob Pike Accomplishments
 - Plan 9/Inferno operating systems
 - Limbo programming language
-- First windows system in Unix 
+- First windows system in Unix
 - Text editors sam, acme and others
 - Co creator of UTF-8 with Ken Thompson
 - Sawzall, Newsqueak and others.
@@ -256,7 +279,7 @@ Statically compiled
 #------------------
 # SLIDE
 #------------------
-* Structs vs Classes 
+* Structs vs Classes
 .code helloworld.go /STRUCT OMIT/,/STRUCTE OMIT/
 
 #------------------
@@ -264,13 +287,13 @@ Statically compiled
 #------------------
 * The truth will set you Free!
 .play truth.go
- 
+
 #------------------
 # SLIDE
 #------------------
 * Real World Example
-- multiple repos 
- 
+- multiple repos
+
 #------------------
 # SLIDE
 #------------------

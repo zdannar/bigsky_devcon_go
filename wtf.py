@@ -7,5 +7,6 @@ def battleship(v):
     return '{0} : {1}'.format(l, repr(v))
 
 if __name__ == '__main__':
-    for v in [0, '', (), [], None]:
-        print battleship(v)
+    # WTF OMIT
+    print '\n'.join([ battleship(x) for x in [0, '', (), [], None] ])
+    # WTFE OMIT
