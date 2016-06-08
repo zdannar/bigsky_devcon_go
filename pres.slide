@@ -95,7 +95,7 @@ What is this nonsense about a bear?
 #------------------
 # SLIDE
 #------------------
-* Avoid Language Nuances
+* Language Nuances
 - No actual main program driver function
 - Lack of truth
 - Too much syntactic sugar
@@ -279,8 +279,9 @@ Statically compiled
 #------------------
 # SLIDE
 #------------------
-* Structs vs Classes
+* Types, Structs, Methods and Interfaces
 .code helloworld.go /STRUCT OMIT/,/STRUCTE OMIT/
+The method String() implements the io.Stringer interface.
 
 #------------------
 # SLIDE
@@ -291,31 +292,63 @@ Statically compiled
 #------------------
 # SLIDE
 #------------------
-* Real World Example
-- multiple repos
+* Performance
+
+_Real_world_example_
+
+Needed to look for RPM differences in YUM repos allowing for incremental change sets and limited syncing over the network.
 
 #------------------
 # SLIDE
 #------------------
 * Parsing RPM XML Repo
-.background ryan_graph_without_pypy.png
-
-#------------------
-# SLIDE
-#------------------
-* Parsing RPM XML Repo(cont..)
-.background ryan_graph.png
+.image ryan_graph_without_pypy.png
 
 #------------------
 # SLIDE
 #------------------
 * Tooling?
-
+.image tools.png
 - gofmt
 - go race
 - go vet
 - go get
+ 
+#------------------
+# SLIDE
+#------------------
+* Tabs or Spaces?
+.image tabs-spaces.jpeg
+ 
+#------------------
+# SLIDE
+#------------------
+* gofmt 
 
+Rebuilds your go files to community spec and format.
+
+#------------------
+# SLIDE
+#------------------
+* go build -race
+
+Provides a race detector looking for deadlocks and race conditions.
+ 
+#------------------
+# SLIDE
+#------------------
+* go vet
+
+Vet examines Go source code and reports suspicious constructs.
+#
+#------------------
+# SLIDE
+#------------------
+* go get  
+
+Retrieves dependancies for you and puts the source in $GOPATH/src.
+
+go get "github.com/nlopes/slack"
 
 #------------------
 # SLIDE
@@ -328,3 +361,10 @@ Statically compiled
 
 # TODO: Cross Compile.
 # set GOOS and GOARCH.
+ 
+#------------------
+# SLIDE
+#------------------
+* Parsing RPM XML Repo(cont..)
+.background ryan_graph.png
+
