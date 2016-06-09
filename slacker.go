@@ -50,6 +50,7 @@ func post(msg string, conf *config) {
 }
 
 // READ OMIT
+// YAY!  I actually know wthat this thing is returning and the types. // HLread
 func read() (*[]string, func(string)) { // HLread
 	msg := make([]string, 0, 3)
 	header := true

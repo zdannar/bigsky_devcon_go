@@ -372,7 +372,7 @@ The method String() implements the io.Stringer interface.
 * Deployment
 .play static_build.sh
 
-Build static(linux):
+Build static (Linux):
 
     linux: go build --ldflags '-extldflags "-static"' ./file.go
 
