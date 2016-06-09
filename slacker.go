@@ -49,7 +49,8 @@ func post(msg string, conf *config) {
 	}
 }
 
-func read() (*[]string, func(string)) {
+// READ OMIT
+func read() (*[]string, func(string)) { // HLread
 	msg := make([]string, 0, 3)
 	header := true
 	f := func(line string) {
@@ -64,6 +65,8 @@ func read() (*[]string, func(string)) {
 	}
 	return &msg, f
 }
+
+// READE OMIT
 
 func gen_message() string {
 	msg, liner := read()

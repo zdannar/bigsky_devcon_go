@@ -89,7 +89,17 @@ What is this nonsense about a bear?
 - Avoid Language Nuances
 - Static Types
 - Deployability
-- Speed of development
+- Speed of Development
+- Performance
+
+#------------------
+# SLIDE
+#------------------
+* ...
+- *Avoid* *Language* *Nuances*
+- Static Types
+- Deployability
+- Speed of Development
 - Performance
 
 #------------------
@@ -99,12 +109,13 @@ What is this nonsense about a bear?
 - No actual main program driver function
 - Lack of truth
 - Too much syntactic sugar
+- Poor scoping mechanisms
 
 #------------------
 # SLIDE
 #------------------
 * ...
-.play wtf.py
+.play wtf.py HLmain
 
 #------------------
 # SLIDE
@@ -118,6 +129,41 @@ What is this nonsense about a bear?
 #------------------
 * ...
 .play wtf.rb
+
+#------------------
+# SLIDE
+#------------------
+* ...
+- Avoid Language Nuances
+- *Static* *Types*
+- Deployability
+- Speed of Development
+- Performance
+
+#------------------
+# SLIDE
+#------------------
+* Static Types
+
+- Code readability
+- No more guessing games
+\...
+
+* Static Types ...
+.code hello.c /R2 OMIT/,/R2E OMIT/ HLstype
+
+* Static Types ...
+.code hello.c /R1 OMIT/,/R1E OMIT/ HLstype
+
+#------------------
+# SLIDE
+#------------------
+* ...
+- Avoid Language Nuances
+- Static Types
+- *Deployability*
+- Speed of Development
+- Performance
 
 #------------------
 # SLIDE
@@ -144,9 +190,40 @@ Other considerations:
 # SLIDE
 #------------------
 * Deploying libs and managing deps sucks.
-Therefore ...
+
+preferably ...
 
 Statically compiled
+
+#------------------
+# SLIDE
+#------------------
+* ...
+- Avoid Language Nuances
+- Static Types
+- Deployability
+- *Speed* *of* *Development*
+- Performance
+
+#------------------
+# SLIDE
+#------------------
+* Speed of Development
+
+- Didn't have the time to code C or C++.
+- Need to be to solve an issue in roughly the same time as python.
+- Peers have to be able to read the code.
+
+
+#------------------
+# SLIDE
+#------------------
+* ...
+- Avoid Language Nuances
+- Static Types
+- Deployability
+- Speed of Development
+- *Performance*
 
 #------------------
 # SLIDE
@@ -160,27 +237,6 @@ Statically compiled
 #------------------
 * Python multiprocess
 .image hartman_children.jpg
-
-* Static Types
-
-- Code readability
-- No more guessing games
-\...
-
-* Static Types ...
-.code hello.c /R2 OMIT/,/R2E OMIT/
-
-* Static Types ...
-.code hello.c /R1 OMIT/,/R1E OMIT/
-
-#------------------
-# SLIDE
-#------------------
-* Speed of Development
-
-- Didn't have the time to code C or C++.
-- Need to be to solve an issue in roughly the same time as python.
-- Peers have to be able to read the code.
 
 #------------------
 # SLIDE
@@ -273,8 +329,35 @@ Statically compiled
 #------------------
 # SLIDE
 #------------------
+* Let's get to it!
+
+#------------------
+# SLIDE
+#------------------
+* ...
+- Avoid Language Nuances
+- Static Types
+- Deployability
+- Speed of Development
+- Performance
+
+#------------------
+# SLIDE
+#------------------
 * Hello world!
 .play helloworld.go HLmain
+
+#------------------
+# SLIDE
+#------------------
+* Slack poster
+.code slacker.go /READ OMIT/,/READE OMIT/ HLread
+
+#------------------
+# SLIDE
+#------------------
+* The Truth will set you Free!
+.play truth.go
 
 #------------------
 # SLIDE
@@ -286,8 +369,16 @@ The method String() implements the io.Stringer interface.
 #------------------
 # SLIDE
 #------------------
-* The truth will set you Free!
-.play truth.go
+* Deployment
+.play static_build.sh
+
+Build static(linux):
+
+    linux: go build --ldflags '-extldflags "-static"' ./file.go
+
+Cross Compiling:
+
+    GOOS=linux GOARCH=amd64 go build -o hello helloworld.go
 
 #------------------
 # SLIDE
@@ -309,62 +400,32 @@ Needed to look for RPM differences in YUM repos allowing for incremental change 
 #------------------
 * Tooling?
 .image tools.png
-- gofmt
-- go race
-- go vet
-- go get
- 
+
 #------------------
 # SLIDE
 #------------------
 * Tabs or Spaces?
 .image tabs-spaces.jpeg
- 
-#------------------
-# SLIDE
-#------------------
-* gofmt 
 
-Rebuilds your go files to community spec and format.
 
 #------------------
 # SLIDE
 #------------------
-* go build -race
-
-Provides a race detector looking for deadlocks and race conditions.
- 
-#------------------
-# SLIDE
-#------------------
-* go vet
-
-Vet examines Go source code and reports suspicious constructs.
-#
-#------------------
-# SLIDE
-#------------------
-* go get  
-
-Retrieves dependancies for you and puts the source in $GOPATH/src.
-
-go get "github.com/nlopes/slack"
+* Tooling ...
+- gofmt : Rebuilds your go files to community spec and format.
+- go get : Retrieves dependancies for you and puts the source in $GOPATH/src.
+- go vet : Examines Go source code and reports suspicious constructs.
+- go [build] -race : Provides a race detector looking for deadlocks and race conditions.
+- go tool pprof : Performance analyzer
 
 #------------------
 # SLIDE
 #------------------
 * Things I am not partial about go.
 - No tooling to describe interface implementation.
-- Errors can be minotinous
+- Errors can be monotonous
 - Lack of Generics.
-- Over implemetation of channels.  They can be slow.
+- Over implementation of channels.  They can be slow.
 
 # TODO: Cross Compile.
 # set GOOS and GOARCH.
- 
-#------------------
-# SLIDE
-#------------------
-* Parsing RPM XML Repo(cont..)
-.background ryan_graph.png
-

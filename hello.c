@@ -3,7 +3,7 @@
 #include<stdbool.h>
 #include<string.h>
 
-bool statement(int n, char* buffPtr)
+bool statement(int n, char* buffPtr) // HLstype
 {
     switch(n) {
        case 1 :
@@ -25,8 +25,8 @@ bool statement(int n, char* buffPtr)
 // R2 OMIT
 int main()
 {
-    int friends = 1;
-    char* stringPtr;
+    int friends = 1; // HLstype
+    char* stringPtr; // HLstype
 
     if (!statement(friends, stringPtr))
     {
