@@ -384,10 +384,16 @@ Cross Compiling:
 # SLIDE
 #------------------
 * Performance
+_Go_Routines,_ _Channels,_ _Mutexes!_
 
+* ...
+.play gopher.go
+
+* Performance
 _Real_world_example_
 
-Needed to look for RPM differences in YUM repos allowing for incremental change sets and limited syncing over the network.
+We needed to look for RPM differences in YUM repos allowing for incremental
+change sets and limited syncing over the network.
 
 #------------------
 # SLIDE
@@ -406,7 +412,6 @@ Needed to look for RPM differences in YUM repos allowing for incremental change 
 #------------------
 * Tabs or Spaces?
 .image tabs-spaces.jpeg
-
 
 #------------------
 # SLIDE
@@ -427,5 +432,10 @@ Needed to look for RPM differences in YUM repos allowing for incremental change 
 - Lack of Generics.
 - Over implementation of channels.  They can be slow.
 
-# TODO: Cross Compile.
-# set GOOS and GOARCH.
+#------------------
+# SLIDE
+#------------------
+* What was this all about?
+- Every process run for monitoring or anything else has a cost.
+- Speed of development and ease of deployment are important.
+- Finding code issues during compliation vs runtime is important.
