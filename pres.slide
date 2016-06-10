@@ -1,3 +1,8 @@
+## NOTES:
+# First class functions
+# Compilations are fast
+# Show how errors work.
+
 #------------------
 # SLIDE
 #------------------
@@ -181,11 +186,6 @@ What is this nonsense about a bear?
 - Conflicts with current libs
 - Lib packaging
 - Deployment time
-
-Other considerations:
-
-- compliance?
-- Lib availability
 \...
 
 #------------------
