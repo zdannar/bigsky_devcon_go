@@ -259,6 +259,11 @@ Statically compiled
 .image gopher_head.png
 .caption https://golang.org/
 
+- Compiled
+- Garbage collected
+- Concurrent and Parallel
+- Developed by Google
+
 #------------------
 # SLIDE
 #------------------
@@ -420,7 +425,7 @@ change sets and limited syncing over the network.
 #------------------
 * Tooling ...
 - gofmt : Rebuilds your go files to community spec and format.
-- go get : Retrieves dependancies for you and puts the source in $GOPATH/src.
+- go get : Retrieves dependencies for you and puts the source in $GOPATH/src.
 - go vet : Examines Go source code and reports suspicious constructs.
 - go [build] -race : Provides a race detector looking for deadlocks and race conditions.
 - go tool pprof : Performance analyzer
@@ -435,7 +440,6 @@ change sets and limited syncing over the network.
 - Errors can be monotonous
 .image kenny.jpg
 
-
 #------------------
 # SLIDE
 #------------------
@@ -448,4 +452,4 @@ change sets and limited syncing over the network.
 * What was this all about?
 - Every process run for monitoring or anything else has a cost.
 - Speed of development and ease of deployment are important.
-- Finding code issues during compliation vs runtime is important.
+- Finding code issues during compilation vs runtime is important.
