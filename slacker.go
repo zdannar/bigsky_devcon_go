@@ -14,17 +14,18 @@ type config struct {
 	Token      string `yaml:"token"`
 }
 
-func proc_config() (*config, error) {
+// ERR OMIT
+func proc_config() (*config, error) { // HLerr
 	file, err := os.Open("slacker.yml")
 	defer file.Close()
 	if err != nil {
 		return nil, err
 	}
-	fi, err := file.Stat()
 
-	if err != nil {
-		return nil, err
-	}
+	fi, err := file.Stat() // HLerr
+	if err != nil {        // HLerr
+		return nil, err // HLerr
+	} // HLerr
 
 	buff := make([]byte, fi.Size())
 	if _, err = file.Read(buff); err != nil {
@@ -35,6 +36,8 @@ func proc_config() (*config, error) {
 	err = yaml.Unmarshal(buff, c)
 	return c, err
 }
+
+// ERRE OMIT
 
 func post(msg string, conf *config) {
 	api := slack.New(conf.Token)

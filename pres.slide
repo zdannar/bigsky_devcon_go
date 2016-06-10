@@ -428,12 +428,19 @@ change sets and limited syncing over the network.
 #------------------
 # SLIDE
 #------------------
-* Things I am not partial about go.
+* Some potential complaints about Go.
 - No tooling to describe interface implementation.
-- Errors can be monotonous
 - Lack of Generics.
 - Over implementation of channels.  They can be slow.
+- Errors can be monotonous
 .image kenny.jpg
+
+
+#------------------
+# SLIDE
+#------------------
+* Error Handling
+.code slacker.go /ERR OMIT/,/ERRE OMIT/ HLerr
 
 #------------------
 # SLIDE
