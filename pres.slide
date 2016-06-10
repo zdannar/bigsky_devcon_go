@@ -431,6 +431,7 @@ change sets and limited syncing over the network.
 - Errors can be monotonous
 - Lack of Generics.
 - Over implementation of channels.  They can be slow.
+.image kenny.jpg
 
 #------------------
 # SLIDE
@@ -439,9 +440,3 @@ change sets and limited syncing over the network.
 - Every process run for monitoring or anything else has a cost.
 - Speed of development and ease of deployment are important.
 - Finding code issues during compliation vs runtime is important.
-
-
-#------------------
-# SLIDE
-#------------------
-.image kenny.jpg
